@@ -1,0 +1,236 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #726767;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background: #222121;
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: 550;
+}
+.logo{
+    font-size: 24px;
+}
+
+.hero{
+    width: 700px;
+    height: 400px;
+    background: url(images/heo-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 140px;    
+}
+body::before {
+    content: "";
+    background-image: url(/heo-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.hero{
+    /* text-align: center; */
+    text-justify: centre;
+} */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+h1, h2 {
+    color: #f0e1e1;
+}
+p{
+    color: black;
+}
+
+/* Header Styling */
+header {
+    background-color: #000000;
+    color: rgb(255, 239, 239);
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: #f5b37d; /* A warm color for hover effect */
+}
+
+/* Centering Images */
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 250px;
+    border: 1px solid #56eb43;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #f32323;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #f4a261; /* Color change on hover */
+}
+.hero {
+    background-image: url('/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center center; /* Centers the background image */
+    color: rgb(48, 129, 235); /* Ensures text is visible over the image */
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.sai{
+    color: #000000;
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .search-box input[type="text"] {
+        width: 200px;
+    }
+}
+/*----............Recipe Section.............---->
+
+.recipe{
+    padding: 50px 0;
+}
+.recipes h1{
+text-align: cente;
+margin-bottom: 30px;
+font-size: 28px;
+}
+.recipe-section{
+   width: 90%;
+   margin: 0 auto;
+}
